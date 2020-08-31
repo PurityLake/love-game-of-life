@@ -1,3 +1,3 @@
 # love-game-of-life
 
-[Imgur](https://i.imgur.com/kbNemCm.gifv)
+![alt Imgur](https://i.imgur.com/kbNemCm.gif)
