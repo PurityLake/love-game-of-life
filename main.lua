@@ -7,6 +7,8 @@ function love.load()
     grid = Grid:new()
     tilewidth = love.graphics.getWidth() / grid.width
     tileheight = love.graphics.getHeight() / grid.height
+    tilewidth = math.max(tilewidth, tileheight)
+    tileheight = math.max(tilewidth, tileheight)
 end
 
 function love.draw()
